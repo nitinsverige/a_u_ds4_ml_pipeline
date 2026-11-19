@@ -91,7 +91,7 @@ Model pipeline combining preprocessing, features and prediction : `ColumnTransfo
 
 Fine-tune the pipeline's hyperparameters using `GridSearchCV`: 288 combinations x 5 CVfolds
 
-Evaluate on the test data after training on all training data : 
+Evaluate on the test data after training on all training data. We have used metrics such as accuracy, precision and recall to evaluate the trained model's performance.
 
 We have also included Exploratory data analysis (incl plots), hyperparameter-effect plots, a
 feature-importance plot (top words and features per class), predictions for new
